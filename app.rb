@@ -1,6 +1,7 @@
 require 'sinatra/base'
 require 'mongoid'
 require_relative 'routes/init'
+require_relative 'models/init'
 
 Mongoid.load! "mongoid.config"
 
